@@ -1,0 +1,46 @@
+body {
+    font-family: initial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.card {
+    background-color:lightseagreen;
+    border-radius: 15px;
+    padding: 75px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.card h1 {
+    color: black;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.card p {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: none;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-align: left;
+}
